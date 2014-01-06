@@ -16,8 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-//    NSLog(@"My test have successed!\n");
-//    NSLog(@"I have need new version!");
+    NSLog(@"My test have successed!\n");
+    NSLog(@"I have need new version!");
+    NSLog(@"I have make change threes! times ");
     
     GithubViewController *gvc = [[GithubViewController alloc] init];
     self.window.rootViewController = gvc;
