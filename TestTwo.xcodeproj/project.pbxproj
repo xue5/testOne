@@ -19,6 +19,7 @@
 		8B6441FF187AA9960036306D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6441E7187AA9960036306D /* UIKit.framework */; };
 		8B644207187AA9960036306D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B644205187AA9960036306D /* InfoPlist.strings */; };
 		8B644209187AA9960036306D /* TestTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B644208187AA9960036306D /* TestTwoTests.m */; };
+		8B64424F187AC4730036306D /* GithubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64424E187AC4730036306D /* GithubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		8B644204187AA9960036306D /* TestTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTwoTests-Info.plist"; sourceTree = "<group>"; };
 		8B644206187AA9960036306D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B644208187AA9960036306D /* TestTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoTests.m; sourceTree = "<group>"; };
+		8B64424D187AC4730036306D /* GithubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubViewController.h; sourceTree = "<group>"; };
+		8B64424E187AC4730036306D /* GithubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		8B6441D7187AA9960036306D = {
 			isa = PBXGroup;
 			children = (
+				8B64424D187AC4730036306D /* GithubViewController.h */,
+				8B64424E187AC4730036306D /* GithubViewController.m */,
 				8B6441E9187AA9960036306D /* TestTwo */,
 				8B644202187AA9960036306D /* TestTwoTests */,
 				8B6441E2187AA9960036306D /* Frameworks */,
@@ -241,6 +246,7 @@
 			files = (
 				8B6441F4187AA9960036306D /* AppDelegate.m in Sources */,
 				8B6441F0187AA9960036306D /* main.m in Sources */,
+				8B64424F187AC4730036306D /* GithubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +449,7 @@
 				8B64420E187AA9960036306D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B64420F187AA9960036306D /* Build configuration list for PBXNativeTarget "TestTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				8B644211187AA9960036306D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

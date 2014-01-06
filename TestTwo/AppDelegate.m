@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GithubViewController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,10 @@
     
     NSLog(@"My test have successed!\n");
     NSLog(@"I have need new version!");
+    
+    GithubViewController *gvc = [[GithubViewController alloc] init];
+    self.window.rootViewController = gvc;
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
